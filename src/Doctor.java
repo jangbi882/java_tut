@@ -1,13 +1,14 @@
 
 public class Doctor {
 	
-	private String name = "장병진";
-	private String computer = "전산시스템";
-	private String medicalAppliance = "청진기";
+	private String name;
+	private String computer;
+	private String medicalAppliance;
 
 	public Doctor(String name, String computer, String medicalAppliance) {
 		this.name = name;
 		this.computer = computer;
+		this.medicalAppliance = medicalAppliance;
 	}
 	
 	public void inquery() {
