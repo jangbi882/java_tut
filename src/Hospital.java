@@ -1,13 +1,14 @@
 
 public class Hospital {
 	public static void main(String[] args) {
-		Doctor doctor = new Doctor("±ËªÁ∫Œ", "superCom", "MRI");
+		DoctorModel info1 = new DoctorModel("±ËªÁ∫Œ", "superCom", "MRI");
+		Doctor doctor = new Doctor(info1);
 		doctor.inquery();
 		doctor.treatment();
 		doctor.prescription();
-		doctor.setComputer("");
 		
-		Doctor doctor2 = new Doctor("∫¿¥ﬁ»Ò", "Computer", "¡÷ªÁ±‚");
+		DoctorModel info2 = new DoctorModel("∫¿¥ﬁ»Ò", "Computer", "¡÷ªÁ±‚");
+		Doctor doctor2 = new Doctor(info2);
 		doctor2.inquery();
 	}
 }
