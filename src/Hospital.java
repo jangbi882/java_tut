@@ -14,9 +14,10 @@ public class Hospital {
 //		}
 		
 		for (Doctor doctor : doctors) {
-			doctor.inquery();
-			doctor.treatment();
-			doctor.prescription();
+//			doctor.inquery();
+//			doctor.treatment();
+//			doctor.prescription();
+			
 		}
 
 	}
